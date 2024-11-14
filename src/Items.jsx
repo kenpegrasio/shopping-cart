@@ -24,6 +24,7 @@ function List(props) {
               name={item.id}
               onChange={handleChange}
               min="0"
+              max="100"
             ></input>
           </div>
         );
